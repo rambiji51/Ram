@@ -12,3 +12,8 @@ jobs:
     steps:
       - name: my-step
         run: ls -ltr
+  my-job-3:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step
+        run: df -h
